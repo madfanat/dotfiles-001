@@ -1,0 +1,56 @@
+2024/05/08-19:29:58.959 4 Reusing MANIFEST /home/tim/.config/thorium/Default/Local Storage/leveldb/MANIFEST-000001
+2024/05/08-19:29:58.963 4 Recovering log #403
+2024/05/08-19:29:58.964 4 Level-0 table #406: started
+2024/05/08-19:29:58.973 4 Level-0 table #406: 51980 bytes OK
+2024/05/08-19:29:58.984 4 Delete type=0 #403
+2024/05/08-19:29:58.984 6 Compacting 4@0 + 1@1 files
+2024/05/08-19:29:59.001 6 Generated table #408@0: 484 keys, 938546 bytes
+2024/05/08-19:29:59.001 6 Compacted 4@0 + 1@1 files => 938546 bytes
+2024/05/08-19:29:59.008 6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/05/08-19:29:59.008 6 Delete type=2 #397
+2024/05/08-19:29:59.008 6 Delete type=2 #400
+2024/05/08-19:29:59.008 6 Delete type=2 #402
+2024/05/08-19:29:59.008 6 Delete type=2 #404
+2024/05/08-19:29:59.008 6 Delete type=2 #406
+2024/05/08-19:41:13.024 6 Level-0 table #410: started
+2024/05/08-19:41:13.030 6 Level-0 table #410: 54716 bytes OK
+2024/05/08-19:41:13.051 6 Delete type=0 #407
+2024/05/08-19:42:41.164 6 Level-0 table #412: started
+2024/05/08-19:42:41.170 6 Level-0 table #412: 17738 bytes OK
+2024/05/08-19:42:41.178 6 Delete type=0 #409
+2024/05/08-19:58:32.011 6 Level-0 table #414: started
+2024/05/08-19:58:32.018 6 Level-0 table #414: 45372 bytes OK
+2024/05/08-19:58:32.027 6 Delete type=0 #411
+2024/05/08-19:58:51.439 6 Level-0 table #416: started
+2024/05/08-19:58:51.447 6 Level-0 table #416: 113124 bytes OK
+2024/05/08-19:58:51.456 6 Delete type=0 #413
+2024/05/08-19:58:51.457 6 Compacting 4@0 + 1@1 files
+2024/05/08-19:58:51.485 6 Generated table #417@0: 485 keys, 1026279 bytes
+2024/05/08-19:58:51.485 6 Compacted 4@0 + 1@1 files => 1026279 bytes
+2024/05/08-19:58:51.491 6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/05/08-19:58:51.492 6 Delete type=2 #408
+2024/05/08-19:58:51.492 6 Delete type=2 #410
+2024/05/08-19:58:51.492 6 Delete type=2 #412
+2024/05/08-19:58:51.492 6 Delete type=2 #414
+2024/05/08-19:58:51.492 6 Delete type=2 #416
+2024/05/08-19:58:57.526 4 Level-0 table #419: started
+2024/05/08-19:58:57.534 4 Level-0 table #419: 112713 bytes OK
+2024/05/08-19:58:57.543 4 Delete type=0 #415
+2024/05/08-20:01:23.427 4 Level-0 table #421: started
+2024/05/08-20:01:23.433 4 Level-0 table #421: 62138 bytes OK
+2024/05/08-20:01:23.442 4 Delete type=0 #418
+2024/05/08-20:09:12.512 4 Level-0 table #423: started
+2024/05/08-20:09:12.519 4 Level-0 table #423: 56530 bytes OK
+2024/05/08-20:09:12.532 4 Delete type=0 #420
+2024/05/08-20:22:25.446 6 Level-0 table #425: started
+2024/05/08-20:22:25.453 6 Level-0 table #425: 44876 bytes OK
+2024/05/08-20:22:25.462 6 Delete type=0 #422
+2024/05/08-20:22:25.463 6 Compacting 4@0 + 1@1 files
+2024/05/08-20:22:25.490 6 Generated table #426@0: 488 keys, 958813 bytes
+2024/05/08-20:22:25.490 6 Compacted 4@0 + 1@1 files => 958813 bytes
+2024/05/08-20:22:25.497 6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2024/05/08-20:22:25.498 6 Delete type=2 #417
+2024/05/08-20:22:25.498 6 Delete type=2 #419
+2024/05/08-20:22:25.498 6 Delete type=2 #421
+2024/05/08-20:22:25.498 6 Delete type=2 #423
+2024/05/08-20:22:25.498 6 Delete type=2 #425

@@ -1,0 +1,97 @@
+@import "mocha.css";
+
+* {
+    border: none;
+    border-radius: 6px;
+    font-family: "JetbrainsMono Nerd Font";
+    font-size: 14px;
+    min-height: 25px;
+}
+
+window#waybar {
+    background: @base;
+    border-radius: 0;
+    color: @text;
+}
+
+tooltip {
+    background: @surface0;
+    border-radius: 9px;
+}
+
+tooltip label {
+    color: @text;
+}
+
+#workspaces button {
+    padding: 0 5px;
+    background: @surface0;
+    color: @text;
+}
+
+#workspaces button.focused {
+    background: @surface0;
+}
+
+#clock, #battery, #network, #wireplumber, #language, #tray {
+    padding: 0 10px;
+    margin: 0 5px;
+}
+
+#clock {
+    background-color: @surface0;
+    color: @text;
+    font-weight: bold;
+}
+
+#battery {
+    background-color: @surface0;
+    color: @text;
+    padding-right: 18px;
+}
+
+#battery.charging {
+    color: @green;
+    background-color: @surface0;
+}
+
+#network {
+    background-color: @surface0;
+    padding-right: 16px;
+}
+
+#network.disconnected {
+    background-color: @surface0;
+}
+
+#wireplumber {
+    background-color: @surface0;
+    color: @text;
+    padding-right: 18px;
+}
+
+#wireplumber.muted {
+    background-color: @surface0;
+    color: @red;
+    padding-right: 10px;
+}
+
+#language {
+    background: @surface0;
+    color: @text;
+    min-width: 16px;
+}
+
+#tray {
+    background-color: @surface0;
+}
+
+#custom-power {
+    background-color: @surface0;
+    color: @text;
+    padding-left: 5px;
+    padding-right: 10px;
+    margin-left: 5px;
+    margin-right: 0;
+}
+

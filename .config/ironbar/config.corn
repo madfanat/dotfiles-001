@@ -1,0 +1,76 @@
+let {
+	$workspaces = {
+		type = "workspaces"
+	}
+	
+	$launcher = {
+		type = "launcher"
+		favorites = ["nautilus" "thorium-browser" "telegram-desktop"]
+	}
+
+	$notifications = {
+	    type = "notifications"
+        show_count = true
+        icons.closed_none = "󰂜"
+        icons.closed_some = "󰂜"
+        icons.closed_dnd = "󰪓"
+        icons.open_none = "󰂚"
+        icons.open_some = "󰂚"
+        icons.open_dnd = "󰂠"
+    }
+
+	$tray = {
+		type = "tray"
+		direction = "left_to_right"
+		icon_size = 20
+	}
+
+	$clock = {
+		type = "clock"
+		format = "%d.%m.%Y %H:%M"
+	}
+
+	$volume = {
+        type = "volume"
+        format = "{icon} {percentage}%"
+        max_volume = 100
+        icons.volume_high = " "
+        icons.volume_medium = ""
+        icons.volume_low = ""
+        icons.muted = " "
+	}
+
+	$button = { type = "button" name="power-button" label = "<span font-size='20pt'>󰐥</span>" on_click = "popup:toggle" }
+
+    $popup = {
+        type = "box"
+        orientation = "horizontal"
+        widgets = [
+            {
+                type = "box"
+                widgets = [
+                    { type = "button" class="power-button" label = "<span font-size='20pt'>󰐥</span>" on_click = "!loginctl poweroff" }
+                    { type = "button" class="power-button" label = "<span font-size='20pt'>󰜉</span>" on_click = "!loginctl reboot" }
+					{ type = "button" class="power-button" label = "<span font-size='20pt'>󰤄</span>" on_clock = "!loginctl suspend" }
+                ]
+            }
+        ]
+    }
+
+    $power_menu = {
+        type = "custom"
+        class = "power-menu"
+
+        bar = [ $button ]
+        popup = [ $popup ]
+    }
+
+}
+
+in {
+    anchor_to_edges = true
+	icon_theme = "Flat-Remix-Violet-Dark"
+	start = [ $power_menu $workspaces ]
+	center = [ $launcher ]
+	end = [ $tray $volume $clock $notifications ]
+}

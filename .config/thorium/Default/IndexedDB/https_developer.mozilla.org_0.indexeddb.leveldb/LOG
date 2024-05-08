@@ -1,0 +1,6 @@
+2024/05/06-21:54:43.567 72a Creating DB /home/tim/.config/thorium/Default/IndexedDB/https_developer.mozilla.org_0.indexeddb.leveldb since it was missing.
+2024/05/06-21:54:43.576 72a Reusing MANIFEST /home/tim/.config/thorium/Default/IndexedDB/https_developer.mozilla.org_0.indexeddb.leveldb/MANIFEST-000001
+2024/05/06-21:55:15.636 72a Level-0 table #5: started
+2024/05/06-21:55:15.640 72a Level-0 table #5: 401 bytes OK
+2024/05/06-21:55:15.647 72a Delete type=0 #3
+2024/05/06-21:55:15.647 72a Manual compaction at level-0 from (begin) .. (end); will stop at (end)

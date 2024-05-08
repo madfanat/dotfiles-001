@@ -1,0 +1,5 @@
+type = process
+command = wireplumber
+smooth-recovery = true
+depends-on = pipewire
+depends-on = pipewire-pulse

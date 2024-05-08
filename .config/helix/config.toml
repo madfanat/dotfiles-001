@@ -1,0 +1,6 @@
+theme = "catppuccin_mocha"
+
+[editor.statusline]
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"

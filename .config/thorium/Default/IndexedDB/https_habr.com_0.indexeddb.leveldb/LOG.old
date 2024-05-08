@@ -1,0 +1,6 @@
+2024/05/07-15:33:52.068 4f1 Creating DB /home/tim/.config/thorium/Default/IndexedDB/https_habr.com_0.indexeddb.leveldb since it was missing.
+2024/05/07-15:33:52.077 4f1 Reusing MANIFEST /home/tim/.config/thorium/Default/IndexedDB/https_habr.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/05/07-15:36:47.231 4f1 Level-0 table #5: started
+2024/05/07-15:36:47.235 4f1 Level-0 table #5: 1012 bytes OK
+2024/05/07-15:36:47.241 4f1 Delete type=0 #3
+2024/05/07-15:36:47.242 4f1 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

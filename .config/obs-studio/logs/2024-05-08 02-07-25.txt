@@ -1,0 +1,725 @@
+02:07:25.767: Platform: Wayland
+02:07:25.767: CPU Name: 12th Gen Intel(R) Core(TM) i5-12500
+02:07:25.767: CPU Speed: 2457.170MHz
+02:07:25.767: Physical Cores: 6, Logical Cores: 12
+02:07:25.767: Physical Memory: 31841MB Total, 28466MB Free
+02:07:25.767: Kernel Version: Linux 6.8.9-artix1-1
+02:07:25.767: Distribution: "Artix Linux" Unknown
+02:07:25.767: Desktop Environment: Hyprland
+02:07:25.767: Session Type: wayland
+02:07:25.768: Qt Version: 6.7.0 (runtime), 6.7.0 (compiled)
+02:07:25.768: Portable mode: false
+02:07:25.785: OBS 30.1.2-1 (linux)
+02:07:25.785: ---------------------------------
+02:07:25.785: ---------------------------------
+02:07:25.785: audio settings reset:
+02:07:25.785: 	samples per sec: 48000
+02:07:25.785: 	speakers:        2
+02:07:25.785: 	max buffering:   960 milliseconds
+02:07:25.785: 	buffering type:  dynamically increasing
+02:07:25.786: ---------------------------------
+02:07:25.786: Initializing OpenGL...
+02:07:25.786: Using EGL/Wayland
+02:07:25.809: Initialized EGL 1.5
+02:07:25.819: Loading up OpenGL on adapter AMD AMD Radeon RX 6700 XT (radeonsi, navi22, LLVM 17.0.6, DRM 3.57, 6.8.9-artix1-1)
+02:07:25.819: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 24.0.6-arch1.2, shading language 4.60
+02:07:25.899: ---------------------------------
+02:07:25.899: video settings reset:
+02:07:25.899: 	base resolution:   1920x1080
+02:07:25.899: 	output resolution: 1280x720
+02:07:25.899: 	downscale filter:  Bicubic
+02:07:25.899: 	fps:               30/1
+02:07:25.899: 	format:            NV12
+02:07:25.899: 	YUV mode:          Rec. 709/Partial
+02:07:25.899: NV12 texture support enabled
+02:07:25.899: P010 texture support not available
+02:07:25.901: Audio monitoring device:
+02:07:25.901: 	name: По умолчанию
+02:07:25.901: 	id: default
+02:07:25.901: ---------------------------------
+02:07:25.905: Failed to load 'en-US' text for module: 'decklink-captions.so'
+02:07:25.909: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+02:07:25.912: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+02:07:25.912: Failed to initialize module 'decklink.so'
+02:07:25.993: [pipewire] Available captures:
+02:07:25.993: [pipewire]     - Desktop capture
+02:07:25.993: [pipewire]     - Window capture
+02:07:26.003: v4l2loopback not installed, virtual camera disabled
+02:07:26.066: VAAPI: Failed to initialize display in vaapi_device_h264_supported
+02:07:26.066: FFmpeg VAAPI H264 encoding not supported
+02:07:26.066: VAAPI: Failed to initialize display in vaapi_device_av1_supported
+02:07:26.066: FFmpeg VAAPI AV1 encoding not supported
+02:07:26.066: VAAPI: Failed to initialize display in vaapi_device_hevc_supported
+02:07:26.066: FFmpeg VAAPI HEVC encoding not supported
+02:07:26.111: os_dlopen(/usr//lib/obs-plugins/obs-webrtc.so->/usr//lib/obs-plugins/obs-webrtc.so): libjuice.so.1.4.0: невозможно открыть разделяемый объектный файл: Нет такого файла или каталога
+02:07:26.111: 
+02:07:26.114: os_dlopen(/usr//lib/obs-plugins/obs-webrtc.so->/usr//lib/obs-plugins/obs-webrtc.so): libjuice.so.1.4.0: невозможно открыть разделяемый объектный файл: Нет такого файла или каталога
+02:07:26.114: 
+02:07:26.114: Module '/usr//lib/obs-plugins/obs-webrtc.so' not loaded
+02:07:26.137: ---------------------------------
+02:07:26.137:   Loaded Modules:
+02:07:26.137:     text-freetype2.so
+02:07:26.137:     rtmp-services.so
+02:07:26.137:     obs-x264.so
+02:07:26.137:     obs-vst.so
+02:07:26.138:     obs-transitions.so
+02:07:26.138:     obs-qsv11.so
+02:07:26.138:     obs-outputs.so
+02:07:26.138:     obs-libfdk.so
+02:07:26.138:     obs-filters.so
+02:07:26.138:     obs-ffmpeg.so
+02:07:26.138:     linux-v4l2.so
+02:07:26.138:     linux-pulseaudio.so
+02:07:26.138:     linux-pipewire.so
+02:07:26.138:     linux-jack.so
+02:07:26.138:     linux-capture.so
+02:07:26.138:     linux-alsa.so
+02:07:26.138:     image-source.so
+02:07:26.138:     frontend-tools.so
+02:07:26.138:     decklink-output-ui.so
+02:07:26.138:     decklink-captions.so
+02:07:26.138: ---------------------------------
+02:07:26.138: ==== Startup complete ===============================================
+02:07:26.143: No scene file found, creating default scene
+02:07:26.177: All scene data cleared
+02:07:26.177: ------------------------------------------------
+02:07:26.186: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.5) 15.0.0'
+02:07:26.186: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+02:07:26.186: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor' (default)
+02:07:26.187: pulse-input: Server name: 'PulseAudio (on PipeWire 1.0.5) 15.0.0'
+02:07:26.187: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+02:07:26.187: pulse-input: Started recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor' (default)
+02:07:26.188: Switched to scene 'Сцена'
+02:07:26.188: Failed to glob scene collections
+02:07:26.731: [rtmp-services plugin] Successfully updated file 'services.json' (version 251)
+02:07:26.731: [rtmp-services plugin] Successfully updated package (version 251)
+02:07:27.023: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Рабочий стол)
+02:07:27.023: 
+02:07:33.230: 
+02:07:33.230: ==== Auto-config wizard testing commencing ======
+
+02:07:33.235: Number of remaining views: 1
+02:07:33.235: ---------------------------------
+02:07:33.236: video settings reset:
+02:07:33.236: 	base resolution:   1920x1080
+02:07:33.236: 	output resolution: 1920x1080
+02:07:33.236: 	downscale filter:  Bicubic
+02:07:33.236: 	fps:               60/1
+02:07:33.236: 	format:            NV12
+02:07:33.236: 	YUV mode:          Rec. 709/Partial
+02:07:33.239: NV12 texture support enabled
+02:07:33.239: P010 texture support not available
+02:07:33.242: Output 'null': Tried to use obs_output_set_media on an encoded output
+02:07:33.242: ---------------------------------
+02:07:33.242: [x264 encoder: 'test_x264'] preset: veryfast
+02:07:33.242: [x264 encoder: 'test_x264'] profile: high
+02:07:33.242: [x264 encoder: 'test_x264'] settings:
+02:07:33.242: 	rate_control: CRF
+02:07:33.242: 	bitrate:      0
+02:07:33.242: 	buffer size:  0
+02:07:33.242: 	crf:          20
+02:07:33.242: 	fps_num:      60
+02:07:33.242: 	fps_den:      1
+02:07:33.242: 	width:        1920
+02:07:33.242: 	height:       1080
+02:07:33.242: 	keyint:       250
+02:07:33.242: 
+02:07:33.263: ---------------------------------
+02:07:33.263: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: stereo
+02:07:33.263: 
+02:07:38.264: Output 'null': stopping
+02:07:38.264: Output 'null': Total frames output: 267
+02:07:38.264: Output 'null': Total drawn frames: 300
+02:07:38.342: Number of remaining views: 1
+02:07:38.342: ---------------------------------
+02:07:38.342: video settings reset:
+02:07:38.342: 	base resolution:   1920x1080
+02:07:38.342: 	output resolution: 1920x1080
+02:07:38.342: 	downscale filter:  Bicubic
+02:07:38.342: 	fps:               30/1
+02:07:38.342: 	format:            NV12
+02:07:38.342: 	YUV mode:          Rec. 709/Partial
+02:07:38.342: NV12 texture support enabled
+02:07:38.342: P010 texture support not available
+02:07:38.344: Output 'null': Tried to use obs_output_set_media on an encoded output
+02:07:38.344: ---------------------------------
+02:07:38.344: [x264 encoder: 'test_x264'] preset: veryfast
+02:07:38.344: [x264 encoder: 'test_x264'] profile: high
+02:07:38.344: [x264 encoder: 'test_x264'] settings:
+02:07:38.344: 	rate_control: CRF
+02:07:38.344: 	bitrate:      0
+02:07:38.344: 	buffer size:  0
+02:07:38.344: 	crf:          20
+02:07:38.344: 	fps_num:      30
+02:07:38.344: 	fps_den:      1
+02:07:38.344: 	width:        1920
+02:07:38.344: 	height:       1080
+02:07:38.344: 	keyint:       250
+02:07:38.344: 
+02:07:38.361: ---------------------------------
+02:07:38.361: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: stereo
+02:07:38.361: 
+02:07:43.361: Output 'null': stopping
+02:07:43.361: Output 'null': Total frames output: 117
+02:07:43.361: Output 'null': Total drawn frames: 150
+02:07:43.444: Number of remaining views: 1
+02:07:43.444: ---------------------------------
+02:07:43.444: video settings reset:
+02:07:43.444: 	base resolution:   1920x1080
+02:07:43.444: 	output resolution: 1280x720
+02:07:43.444: 	downscale filter:  Bicubic
+02:07:43.444: 	fps:               60/1
+02:07:43.444: 	format:            NV12
+02:07:43.444: 	YUV mode:          Rec. 709/Partial
+02:07:43.444: NV12 texture support enabled
+02:07:43.444: P010 texture support not available
+02:07:43.447: Output 'null': Tried to use obs_output_set_media on an encoded output
+02:07:43.447: ---------------------------------
+02:07:43.447: [x264 encoder: 'test_x264'] preset: veryfast
+02:07:43.447: [x264 encoder: 'test_x264'] profile: high
+02:07:43.447: [x264 encoder: 'test_x264'] settings:
+02:07:43.447: 	rate_control: CRF
+02:07:43.447: 	bitrate:      0
+02:07:43.447: 	buffer size:  0
+02:07:43.447: 	crf:          20
+02:07:43.447: 	fps_num:      60
+02:07:43.447: 	fps_den:      1
+02:07:43.447: 	width:        1280
+02:07:43.447: 	height:       720
+02:07:43.447: 	keyint:       250
+02:07:43.447: 
+02:07:43.463: ---------------------------------
+02:07:43.463: [FFmpeg aac encoder: 'test_aac'] bitrate: 32, channels: 2, channel_layout: stereo
+02:07:43.463: 
+02:07:48.463: Output 'null': stopping
+02:07:48.463: Output 'null': Total frames output: 267
+02:07:48.463: Output 'null': Total drawn frames: 300
+02:07:48.497: Number of remaining views: 1
+02:07:48.497: ---------------------------------
+02:07:48.497: video settings reset:
+02:07:48.497: 	base resolution:   1920x1080
+02:07:48.497: 	output resolution: 1280x720
+02:07:48.497: 	downscale filter:  Bicubic
+02:07:48.497: 	fps:               30/1
+02:07:48.497: 	format:            NV12
+02:07:48.497: 	YUV mode:          Rec. 709/Partial
+02:07:48.497: NV12 texture support enabled
+02:07:48.497: P010 texture support not available
+02:07:52.032: Number of remaining views: 1
+02:07:52.032: ---------------------------------
+02:07:52.033: video settings reset:
+02:07:52.033: 	base resolution:   1920x1080
+02:07:52.033: 	output resolution: 1920x1080
+02:07:52.033: 	downscale filter:  Bicubic
+02:07:52.033: 	fps:               60/1
+02:07:52.033: 	format:            NV12
+02:07:52.033: 	YUV mode:          Rec. 709/Partial
+02:07:52.033: NV12 texture support enabled
+02:07:52.033: P010 texture support not available
+02:07:52.037: 
+02:07:52.037: ==== Auto-config wizard testing stopping ========
+
+02:08:21.538: PipeWire initialized
+02:08:21.544: User added source 'Захват окна (PipeWire)' (pipewire-window-capture-source) to scene 'Сцена'
+02:08:21.554: [pipewire] Screencast session created
+02:08:24.970: [pipewire] Asking for window
+02:08:24.971: [pipewire] window selected, setting up screencast
+02:08:24.973: [pipewire] Server version: 1.0.5
+02:08:24.973: [pipewire] Library version: 1.0.5
+02:08:24.973: [pipewire] Header version: 1.0.5
+02:08:24.973: [pipewire] Created stream 0x5f61eec51110
+02:08:24.973: [pipewire] Stream 0x5f61eec51110 state: "connecting" (error: none)
+02:08:24.973: [pipewire] Playing stream 0x5f61eec51110
+02:08:24.973: [pipewire] Stream 0x5f61eec51110 state: "paused" (error: none)
+02:08:24.978: [pipewire] Negotiated format:
+02:08:24.978: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:08:24.978: [pipewire]     Modifier: 0x0
+02:08:24.978: [pipewire]     Size: 2560x1440
+02:08:24.978: [pipewire]     Framerate: 0/1
+02:08:24.979: [pipewire] Negotiated format:
+02:08:24.979: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:08:24.979: [pipewire]     Modifier: 0x20000001896bb03
+02:08:24.979: [pipewire]     Size: 2560x1440
+02:08:24.979: [pipewire]     Framerate: 0/1
+02:08:24.980: [pipewire] Stream 0x5f61eec51110 state: "streaming" (error: none)
+02:08:24.984: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+02:08:24.984: [pipewire] Renegotiating stream
+02:08:24.984: [pipewire] Negotiated format:
+02:08:24.984: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:08:24.984: [pipewire]     Modifier: 0x20000001896bb03
+02:08:24.985: [pipewire]     Size: 2560x1440
+02:08:24.985: [pipewire]     Framerate: 0/1
+02:08:24.985: [pipewire] Negotiated format:
+02:08:24.985: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:08:24.985: [pipewire]     Modifier: 0x200000018967b03
+02:08:24.985: [pipewire]     Size: 2560x1440
+02:08:24.985: [pipewire]     Framerate: 0/1
+02:08:25.001: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+02:08:25.001: [pipewire] Renegotiating stream
+02:08:25.002: [pipewire] Stream 0x5f61eec51110 state: "paused" (error: none)
+02:08:25.002: [pipewire] Negotiated format:
+02:08:25.002: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:08:25.002: [pipewire]     Modifier: 0x200000018967b03
+02:08:25.002: [pipewire]     Size: 2560x1440
+02:08:25.002: [pipewire]     Framerate: 0/1
+02:08:25.002: [pipewire] Negotiated format:
+02:08:25.002: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:08:25.002: [pipewire]     Modifier: 0x200000018937b03
+02:08:25.002: [pipewire]     Size: 2560x1440
+02:08:25.002: [pipewire]     Framerate: 0/1
+02:08:25.004: [pipewire] Stream 0x5f61eec51110 state: "streaming" (error: none)
+02:08:25.018: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+02:08:25.018: [pipewire] Renegotiating stream
+02:08:25.018: [pipewire] Negotiated format:
+02:08:25.018: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:08:25.018: [pipewire]     Modifier: 0x200000018937b03
+02:08:25.018: [pipewire]     Size: 2560x1440
+02:08:25.018: [pipewire]     Framerate: 0/1
+02:08:25.019: [pipewire] Negotiated format:
+02:08:25.019: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:08:25.019: [pipewire]     Modifier: 0x200000018801b03
+02:08:25.019: [pipewire]     Size: 2560x1440
+02:08:25.019: [pipewire]     Framerate: 0/1
+02:08:33.314: User Removed source 'Захват окна (PipeWire)' (pipewire-window-capture-source) from scene 'Сцена'
+02:08:33.314: [pipewire] Stream 0x5f61eec51110 state: "paused" (error: none)
+02:08:33.314: [pipewire] Stream 0x5f61eec51110 state: "unconnected" (error: none)
+02:08:37.479: PipeWire initialized
+02:08:37.484: User added source 'Захват экрана (PipeWire)' (pipewire-desktop-capture-source) to scene 'Сцена'
+02:08:37.493: [pipewire] Screencast session created
+02:08:39.376: [pipewire] Asking for desktop
+02:08:39.377: [pipewire] desktop selected, setting up screencast
+02:08:39.379: [pipewire] Server version: 1.0.5
+02:08:39.379: [pipewire] Library version: 1.0.5
+02:08:39.379: [pipewire] Header version: 1.0.5
+02:08:39.379: [pipewire] Created stream 0x5f61eec31950
+02:08:39.379: [pipewire] Stream 0x5f61eec31950 state: "connecting" (error: none)
+02:08:39.379: [pipewire] Playing stream 0x5f61eec31950
+02:08:39.379: [pipewire] Stream 0x5f61eec31950 state: "paused" (error: none)
+02:08:39.385: [pipewire] Negotiated format:
+02:08:39.385: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:08:39.385: [pipewire]     Modifier: 0x0
+02:08:39.385: [pipewire]     Size: 2560x1440
+02:08:39.385: [pipewire]     Framerate: 0/1
+02:08:39.385: [pipewire] Negotiated format:
+02:08:39.385: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:08:39.385: [pipewire]     Modifier: 0x20000001896bb03
+02:08:39.385: [pipewire]     Size: 2560x1440
+02:08:39.385: [pipewire]     Framerate: 0/1
+02:08:39.385: [pipewire] Stream 0x5f61eec31950 state: "streaming" (error: none)
+02:08:39.396: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+02:08:39.396: [pipewire] Renegotiating stream
+02:08:39.396: [pipewire] Negotiated format:
+02:08:39.396: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:08:39.396: [pipewire]     Modifier: 0x20000001896bb03
+02:08:39.396: [pipewire]     Size: 2560x1440
+02:08:39.396: [pipewire]     Framerate: 0/1
+02:08:39.397: [pipewire] Negotiated format:
+02:08:39.397: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:08:39.397: [pipewire]     Modifier: 0x200000018967b03
+02:08:39.397: [pipewire]     Size: 2560x1440
+02:08:39.397: [pipewire]     Framerate: 0/1
+02:08:39.414: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+02:08:39.414: [pipewire] Renegotiating stream
+02:08:39.414: [pipewire] Stream 0x5f61eec31950 state: "paused" (error: none)
+02:08:39.414: [pipewire] Negotiated format:
+02:08:39.414: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:08:39.414: [pipewire]     Modifier: 0x200000018967b03
+02:08:39.414: [pipewire]     Size: 2560x1440
+02:08:39.414: [pipewire]     Framerate: 0/1
+02:08:39.415: [pipewire] Negotiated format:
+02:08:39.415: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:08:39.415: [pipewire]     Modifier: 0x200000018937b03
+02:08:39.415: [pipewire]     Size: 2560x1440
+02:08:39.415: [pipewire]     Framerate: 0/1
+02:08:39.416: [pipewire] Stream 0x5f61eec31950 state: "streaming" (error: none)
+02:08:39.431: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+02:08:39.431: [pipewire] Renegotiating stream
+02:08:39.432: [pipewire] Negotiated format:
+02:08:39.432: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:08:39.432: [pipewire]     Modifier: 0x200000018937b03
+02:08:39.432: [pipewire]     Size: 2560x1440
+02:08:39.432: [pipewire]     Framerate: 0/1
+02:08:39.432: [pipewire] Negotiated format:
+02:08:39.432: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:08:39.432: [pipewire]     Modifier: 0x200000018801b03
+02:08:39.432: [pipewire]     Size: 2560x1440
+02:08:39.432: [pipewire]     Framerate: 0/1
+02:08:53.140: User Removed source 'Захват экрана (PipeWire)' (pipewire-desktop-capture-source) from scene 'Сцена'
+02:08:53.140: [pipewire] Stream 0x5f61eec31950 state: "paused" (error: none)
+02:08:53.140: [pipewire] Stream 0x5f61eec31950 state: "unconnected" (error: none)
+02:09:21.749: PipeWire initialized
+02:09:21.755: User added source 'Захват экрана (PipeWire)' (pipewire-desktop-capture-source) to scene 'Сцена'
+02:09:21.770: [pipewire] Screencast session created
+02:09:23.580: [pipewire] Asking for desktop
+02:09:23.581: [pipewire] desktop selected, setting up screencast
+02:09:23.583: [pipewire] Server version: 1.0.5
+02:09:23.583: [pipewire] Library version: 1.0.5
+02:09:23.583: [pipewire] Header version: 1.0.5
+02:09:23.583: [pipewire] Created stream 0x5f61eeb964e0
+02:09:23.583: [pipewire] Stream 0x5f61eeb964e0 state: "connecting" (error: none)
+02:09:23.583: [pipewire] Playing stream 0x5f61eeb964e0
+02:09:23.584: [pipewire] Stream 0x5f61eeb964e0 state: "paused" (error: none)
+02:09:23.589: [pipewire] Negotiated format:
+02:09:23.589: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:09:23.589: [pipewire]     Modifier: 0x0
+02:09:23.589: [pipewire]     Size: 2560x1440
+02:09:23.589: [pipewire]     Framerate: 0/1
+02:09:23.589: [pipewire] Negotiated format:
+02:09:23.589: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:09:23.589: [pipewire]     Modifier: 0x20000001896bb03
+02:09:23.589: [pipewire]     Size: 2560x1440
+02:09:23.589: [pipewire]     Framerate: 0/1
+02:09:23.589: [pipewire] Stream 0x5f61eeb964e0 state: "streaming" (error: none)
+02:09:23.599: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+02:09:23.599: [pipewire] Renegotiating stream
+02:09:23.599: [pipewire] Negotiated format:
+02:09:23.599: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:09:23.599: [pipewire]     Modifier: 0x20000001896bb03
+02:09:23.599: [pipewire]     Size: 2560x1440
+02:09:23.599: [pipewire]     Framerate: 0/1
+02:09:23.599: [pipewire] Negotiated format:
+02:09:23.599: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:09:23.599: [pipewire]     Modifier: 0x200000018967b03
+02:09:23.599: [pipewire]     Size: 2560x1440
+02:09:23.599: [pipewire]     Framerate: 0/1
+02:09:23.616: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+02:09:23.616: [pipewire] Renegotiating stream
+02:09:23.617: [pipewire] Stream 0x5f61eeb964e0 state: "paused" (error: none)
+02:09:23.617: [pipewire] Negotiated format:
+02:09:23.617: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:09:23.617: [pipewire]     Modifier: 0x200000018967b03
+02:09:23.617: [pipewire]     Size: 2560x1440
+02:09:23.617: [pipewire]     Framerate: 0/1
+02:09:23.618: [pipewire] Negotiated format:
+02:09:23.618: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:09:23.618: [pipewire]     Modifier: 0x200000018937b03
+02:09:23.618: [pipewire]     Size: 2560x1440
+02:09:23.618: [pipewire]     Framerate: 0/1
+02:09:23.619: [pipewire] Stream 0x5f61eeb964e0 state: "streaming" (error: none)
+02:09:23.633: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+02:09:23.633: [pipewire] Renegotiating stream
+02:09:23.633: [pipewire] Negotiated format:
+02:09:23.634: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:09:23.634: [pipewire]     Modifier: 0x200000018937b03
+02:09:23.634: [pipewire]     Size: 2560x1440
+02:09:23.634: [pipewire]     Framerate: 0/1
+02:09:23.634: [pipewire] Negotiated format:
+02:09:23.634: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:09:23.634: [pipewire]     Modifier: 0x200000018801b03
+02:09:23.634: [pipewire]     Size: 2560x1440
+02:09:23.634: [pipewire]     Framerate: 0/1
+02:09:33.392: PipeWire initialized
+02:09:33.397: User added source 'Захват окна (PipeWire)' (pipewire-window-capture-source) to scene 'Сцена'
+02:09:33.407: [pipewire] Screencast session created
+02:09:34.608: [pipewire] Asking for window
+02:09:34.609: [pipewire] window selected, setting up screencast
+02:09:34.610: [pipewire] Server version: 1.0.5
+02:09:34.610: [pipewire] Library version: 1.0.5
+02:09:34.610: [pipewire] Header version: 1.0.5
+02:09:34.610: [pipewire] Created stream 0x5f61eebab400
+02:09:34.610: [pipewire] Stream 0x5f61eebab400 state: "connecting" (error: none)
+02:09:34.610: [pipewire] Playing stream 0x5f61eebab400
+02:09:34.610: [pipewire] Stream 0x5f61eebab400 state: "paused" (error: none)
+02:09:34.620: [pipewire] Negotiated format:
+02:09:34.620: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:09:34.620: [pipewire]     Modifier: 0x0
+02:09:34.620: [pipewire]     Size: 2560x1440
+02:09:34.620: [pipewire]     Framerate: 0/1
+02:09:34.621: [pipewire] Negotiated format:
+02:09:34.621: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:09:34.621: [pipewire]     Modifier: 0x20000001896bb03
+02:09:34.621: [pipewire]     Size: 2560x1440
+02:09:34.621: [pipewire]     Framerate: 0/1
+02:09:34.663: [pipewire] Stream 0x5f61eebab400 state: "streaming" (error: none)
+02:09:34.675: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+02:09:34.675: [pipewire] Renegotiating stream
+02:09:34.676: [pipewire] Negotiated format:
+02:09:34.676: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:09:34.676: [pipewire]     Modifier: 0x20000001896bb03
+02:09:34.676: [pipewire]     Size: 2560x1440
+02:09:34.676: [pipewire]     Framerate: 0/1
+02:09:34.677: [pipewire] Negotiated format:
+02:09:34.677: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:09:34.677: [pipewire]     Modifier: 0x200000018967b03
+02:09:34.677: [pipewire]     Size: 2560x1440
+02:09:34.677: [pipewire]     Framerate: 0/1
+02:09:42.500: User Removed source 'Захват окна (PipeWire)' (pipewire-window-capture-source) from scene 'Сцена'
+02:09:42.500: [pipewire] Stream 0x5f61eebab400 state: "paused" (error: none)
+02:09:42.500: [pipewire] Stream 0x5f61eebab400 state: "unconnected" (error: none)
+02:09:45.626: User Removed source 'Захват экрана (PipeWire)' (pipewire-desktop-capture-source) from scene 'Сцена'
+02:09:45.626: [pipewire] Stream 0x5f61eeb964e0 state: "paused" (error: none)
+02:09:45.626: [pipewire] Stream 0x5f61eeb964e0 state: "unconnected" (error: none)
+02:09:51.657: PipeWire initialized
+02:09:51.662: User added source 'Захват окна (PipeWire)' (pipewire-window-capture-source) to scene 'Сцена'
+02:09:51.671: [pipewire] Screencast session created
+02:09:52.712: [pipewire] Asking for window
+02:09:52.713: [pipewire] window selected, setting up screencast
+02:09:52.715: [pipewire] Server version: 1.0.5
+02:09:52.715: [pipewire] Library version: 1.0.5
+02:09:52.715: [pipewire] Header version: 1.0.5
+02:09:52.715: [pipewire] Created stream 0x5f61eec92840
+02:09:52.715: [pipewire] Stream 0x5f61eec92840 state: "connecting" (error: none)
+02:09:52.715: [pipewire] Playing stream 0x5f61eec92840
+02:09:52.715: [pipewire] Stream 0x5f61eec92840 state: "paused" (error: none)
+02:09:52.720: [pipewire] Negotiated format:
+02:09:52.721: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:09:52.721: [pipewire]     Modifier: 0x0
+02:09:52.721: [pipewire]     Size: 2560x1440
+02:09:52.721: [pipewire]     Framerate: 0/1
+02:09:52.721: [pipewire] Negotiated format:
+02:09:52.721: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:09:52.721: [pipewire]     Modifier: 0x20000001896bb03
+02:09:52.721: [pipewire]     Size: 2560x1440
+02:09:52.721: [pipewire]     Framerate: 0/1
+02:09:52.721: [pipewire] Stream 0x5f61eec92840 state: "streaming" (error: none)
+02:09:52.722: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+02:09:52.723: [pipewire] Renegotiating stream
+02:09:52.723: [pipewire] Negotiated format:
+02:09:52.723: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:09:52.723: [pipewire]     Modifier: 0x20000001896bb03
+02:09:52.723: [pipewire]     Size: 2560x1440
+02:09:52.723: [pipewire]     Framerate: 0/1
+02:09:52.723: [pipewire] Negotiated format:
+02:09:52.723: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:09:52.723: [pipewire]     Modifier: 0x200000018967b03
+02:09:52.723: [pipewire]     Size: 2560x1440
+02:09:52.723: [pipewire]     Framerate: 0/1
+02:09:52.740: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+02:09:52.740: [pipewire] Renegotiating stream
+02:09:52.740: [pipewire] Stream 0x5f61eec92840 state: "paused" (error: none)
+02:09:52.740: [pipewire] Negotiated format:
+02:09:52.740: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:09:52.740: [pipewire]     Modifier: 0x200000018967b03
+02:09:52.740: [pipewire]     Size: 2560x1440
+02:09:52.740: [pipewire]     Framerate: 0/1
+02:09:52.741: [pipewire] Negotiated format:
+02:09:52.741: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:09:52.741: [pipewire]     Modifier: 0x200000018937b03
+02:09:52.741: [pipewire]     Size: 2560x1440
+02:09:52.741: [pipewire]     Framerate: 0/1
+02:09:52.742: [pipewire] Stream 0x5f61eec92840 state: "streaming" (error: none)
+02:09:52.757: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+02:09:52.757: [pipewire] Renegotiating stream
+02:09:52.757: [pipewire] Negotiated format:
+02:09:52.757: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:09:52.757: [pipewire]     Modifier: 0x200000018937b03
+02:09:52.757: [pipewire]     Size: 2560x1440
+02:09:52.757: [pipewire]     Framerate: 0/1
+02:09:52.758: [pipewire] Negotiated format:
+02:09:52.758: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:09:52.758: [pipewire]     Modifier: 0x200000018801b03
+02:09:52.758: [pipewire]     Size: 2560x1440
+02:09:52.758: [pipewire]     Framerate: 0/1
+02:09:57.114: User Removed source 'Захват окна (PipeWire)' (pipewire-window-capture-source) from scene 'Сцена'
+02:09:57.114: [pipewire] Stream 0x5f61eec92840 state: "paused" (error: none)
+02:09:57.114: [pipewire] Stream 0x5f61eec92840 state: "unconnected" (error: none)
+02:10:06.111: PipeWire initialized
+02:10:06.115: User added source 'Захват окна (PipeWire)' (pipewire-window-capture-source) to scene 'Сцена'
+02:10:06.125: [pipewire] Screencast session created
+02:10:08.314: [pipewire] Asking for window
+02:10:08.315: [pipewire] window selected, setting up screencast
+02:10:08.317: [pipewire] Server version: 1.0.5
+02:10:08.317: [pipewire] Library version: 1.0.5
+02:10:08.317: [pipewire] Header version: 1.0.5
+02:10:08.317: [pipewire] Created stream 0x5f61eed0e150
+02:10:08.317: [pipewire] Stream 0x5f61eed0e150 state: "connecting" (error: none)
+02:10:08.317: [pipewire] Playing stream 0x5f61eed0e150
+02:10:08.317: [pipewire] Stream 0x5f61eed0e150 state: "paused" (error: none)
+02:10:08.323: [pipewire] Negotiated format:
+02:10:08.323: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:10:08.323: [pipewire]     Modifier: 0x0
+02:10:08.323: [pipewire]     Size: 1251x1352
+02:10:08.323: [pipewire]     Framerate: 0/1
+02:10:08.323: [pipewire] Negotiated format:
+02:10:08.323: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:10:08.323: [pipewire]     Modifier: 0x20000001896bb03
+02:10:08.323: [pipewire]     Size: 1251x1352
+02:10:08.323: [pipewire]     Framerate: 0/1
+02:10:08.323: [pipewire] Stream 0x5f61eed0e150 state: "streaming" (error: none)
+02:10:08.335: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+02:10:08.335: [pipewire] Renegotiating stream
+02:10:08.336: [pipewire] Negotiated format:
+02:10:08.336: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:10:08.336: [pipewire]     Modifier: 0x20000001896bb03
+02:10:08.336: [pipewire]     Size: 1251x1352
+02:10:08.336: [pipewire]     Framerate: 0/1
+02:10:08.336: [pipewire] Negotiated format:
+02:10:08.336: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:10:08.336: [pipewire]     Modifier: 0x200000018967b03
+02:10:08.336: [pipewire]     Size: 1251x1352
+02:10:08.336: [pipewire]     Framerate: 0/1
+02:10:08.352: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+02:10:08.352: [pipewire] Renegotiating stream
+02:10:08.353: [pipewire] Stream 0x5f61eed0e150 state: "paused" (error: none)
+02:10:08.353: [pipewire] Negotiated format:
+02:10:08.353: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:10:08.353: [pipewire]     Modifier: 0x200000018967b03
+02:10:08.353: [pipewire]     Size: 1251x1352
+02:10:08.353: [pipewire]     Framerate: 0/1
+02:10:08.354: [pipewire] Negotiated format:
+02:10:08.354: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:10:08.354: [pipewire]     Modifier: 0x200000018937b03
+02:10:08.354: [pipewire]     Size: 1251x1352
+02:10:08.354: [pipewire]     Framerate: 0/1
+02:10:08.356: [pipewire] Stream 0x5f61eed0e150 state: "streaming" (error: none)
+02:10:08.378: Cannot create EGLImage: Arguments are inconsistent (for example, a valid context requires buffers not supplied by a valid surface).
+02:10:08.379: [pipewire] Renegotiating stream
+02:10:08.379: [pipewire] Negotiated format:
+02:10:08.379: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:10:08.379: [pipewire]     Modifier: 0x200000018937b03
+02:10:08.379: [pipewire]     Size: 1251x1352
+02:10:08.379: [pipewire]     Framerate: 0/1
+02:10:08.380: [pipewire] Negotiated format:
+02:10:08.380: [pipewire]     Format: 8 (Spa:Enum:VideoFormat:BGRx)
+02:10:08.380: [pipewire]     Modifier: 0x200000018801b03
+02:10:08.380: [pipewire]     Size: 1251x1352
+02:10:08.380: [pipewire]     Framerate: 0/1
+02:10:17.334: ==== Shutting down ==================================================
+02:10:17.340: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+02:10:17.340: pulse-input: Got 6835 packets with 8202000 frames
+02:10:17.340: pulse-input: Stopped recording from 'alsa_output.pci-0000_00_1f.3.analog-stereo.monitor'
+02:10:17.340: pulse-input: Got 6830 packets with 8196000 frames
+02:10:17.340: [pipewire] Stream 0x5f61eed0e150 state: "paused" (error: none)
+02:10:17.340: [pipewire] Stream 0x5f61eed0e150 state: "unconnected" (error: none)
+02:10:17.378: All scene data cleared
+02:10:17.378: ------------------------------------------------
+02:10:17.452: [Scripting] Total detached callbacks: 0
+02:10:17.452: Freeing OBS context data
+02:10:17.470: == Profiler Results =============================
+02:10:17.470: run_program_init: 472.136 ms
+02:10:17.470:  ┣OBSApp::AppInit: 3.875 ms
+02:10:17.470:  ┃ ┗OBSApp::InitLocale: 0.997 ms
+02:10:17.470:  ┗OBSApp::OBSInit: 450.54 ms
+02:10:17.470:    ┣obs_startup: 1.478 ms
+02:10:17.470:    ┗OBSBasic::OBSInit: 431.877 ms
+02:10:17.470:      ┣OBSBasic::InitBasicConfig: 0.108 ms
+02:10:17.470:      ┣OBSBasic::ResetAudio: 0.164 ms
+02:10:17.470:      ┣OBSBasic::ResetVideo: 115.898 ms
+02:10:17.470:      ┃ ┗obs_init_graphics: 113.35 ms
+02:10:17.470:      ┃   ┗shader compilation: 80.006 ms
+02:10:17.470:      ┣OBSBasic::InitOBSCallbacks: 0.002 ms
+02:10:17.470:      ┣OBSBasic::InitHotkeys: 0.019 ms
+02:10:17.470:      ┣obs_load_all_modules2: 235.955 ms
+02:10:17.470:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+02:10:17.470:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+02:10:17.470:      ┃ ┣obs_init_module(decklink.so): 0.056 ms
+02:10:17.470:      ┃ ┣obs_init_module(frontend-tools.so): 45.143 ms
+02:10:17.470:      ┃ ┣obs_init_module(image-source.so): 0.008 ms
+02:10:17.470:      ┃ ┣obs_init_module(linux-alsa.so): 0.001 ms
+02:10:17.470:      ┃ ┣obs_init_module(linux-capture.so): 0 ms
+02:10:17.470:      ┃ ┣obs_init_module(linux-jack.so): 0.002 ms
+02:10:17.470:      ┃ ┣obs_init_module(linux-pipewire.so): 10.019 ms
+02:10:17.470:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.002 ms
+02:10:17.470:      ┃ ┣obs_init_module(linux-v4l2.so): 2.728 ms
+02:10:17.470:      ┃ ┣obs_init_module(obs-ffmpeg.so): 7.232 ms
+02:10:17.470:      ┃ ┃ ┗nvenc_check: 0.376 ms
+02:10:17.470:      ┃ ┣obs_init_module(obs-filters.so): 0.029 ms
+02:10:17.470:      ┃ ┣obs_init_module(obs-libfdk.so): 0.002 ms
+02:10:17.470:      ┃ ┣obs_init_module(obs-outputs.so): 0.004 ms
+02:10:17.470:      ┃ ┣obs_init_module(obs-qsv11.so): 1.287 ms
+02:10:17.470:      ┃ ┣obs_init_module(obs-transitions.so): 0.011 ms
+02:10:17.470:      ┃ ┣obs_init_module(obs-vst.so): 0.004 ms
+02:10:17.470:      ┃ ┣obs_init_module(obs-x264.so): 0.002 ms
+02:10:17.470:      ┃ ┣obs_init_module(rtmp-services.so): 0.139 ms
+02:10:17.470:      ┃ ┗obs_init_module(text-freetype2.so): 0.045 ms
+02:10:17.470:      ┣OBSBasic::InitService: 2.472 ms
+02:10:17.470:      ┣OBSBasic::ResetOutputs: 0.218 ms
+02:10:17.470:      ┣OBSBasic::CreateHotkeys: 0.024 ms
+02:10:17.470:      ┣OBSBasic::InitPrimitives: 0.107 ms
+02:10:17.470:      ┗OBSBasic::Load: 45.061 ms
+02:10:17.470: obs_hotkey_thread(25 ms): min=0 ms, median=0 ms, max=0.015 ms, 99th percentile=0.001 ms, 100% below 25 ms
+02:10:17.470: audio_thread(Audio): min=0.008 ms, median=0.085 ms, max=6.242 ms, 99th percentile=0.235 ms
+02:10:17.470:  ┗receive_audio: min=0.004 ms, median=0.072 ms, max=0.734 ms, 99th percentile=0.335 ms, 0.0883669 calls per parent call
+02:10:17.470:    ┣buffer_audio: min=0 ms, median=0.001 ms, max=0.056 ms, 99th percentile=0.006 ms
+02:10:17.470:    ┗do_encode: min=0.028 ms, median=0.07 ms, max=0.732 ms, 99th percentile=0.33 ms
+02:10:17.470:      ┣encode(test_aac): min=0.027 ms, median=0.068 ms, max=0.442 ms, 99th percentile=0.324 ms
+02:10:17.470:      ┗send_packet: min=0 ms, median=0.001 ms, max=0.654 ms, 99th percentile=0.006 ms
+02:10:17.470: obs_graphics_thread(33.3333 ms): min=0.141 ms, median=0.667 ms, max=14.461 ms, 99th percentile=1.647 ms, 100% below 33.333 ms
+02:10:17.470:  ┣tick_sources: min=0 ms, median=0.011 ms, max=0.04 ms, 99th percentile=0.017 ms
+02:10:17.470:  ┣output_frame: min=0.097 ms, median=0.305 ms, max=1.632 ms, 99th percentile=0.571 ms
+02:10:17.470:  ┃ ┗gs_context(video->graphics): min=0.097 ms, median=0.302 ms, max=1.629 ms, 99th percentile=0.569 ms
+02:10:17.470:  ┃   ┣render_video: min=0.014 ms, median=0.048 ms, max=0.081 ms, 99th percentile=0.08 ms
+02:10:17.470:  ┃   ┃ ┗render_main_texture: min=0.009 ms, median=0.041 ms, max=0.071 ms, 99th percentile=0.057 ms
+02:10:17.470:  ┃   ┗gs_flush: min=0.002 ms, median=0.007 ms, max=0.023 ms, 99th percentile=0.013 ms
+02:10:17.470:  ┗render_displays: min=0.001 ms, median=0.332 ms, max=14.335 ms, 99th percentile=0.65 ms
+02:10:17.470: obs_graphics_thread(16.6667 ms): min=0.175 ms, median=0.754 ms, max=15.847 ms, 99th percentile=3.059 ms, 100% below 16.667 ms
+02:10:17.470:  ┣tick_sources: min=0.004 ms, median=0.006 ms, max=0.019 ms, 99th percentile=0.013 ms
+02:10:17.470:  ┣output_frame: min=0.1 ms, median=0.567 ms, max=15.693 ms, 99th percentile=2.69 ms
+02:10:17.470:  ┃ ┣gs_context(video->graphics): min=0.1 ms, median=0.236 ms, max=15.693 ms, 99th percentile=0.6 ms
+02:10:17.470:  ┃ ┃ ┣render_video: min=0.02 ms, median=0.091 ms, max=3.809 ms, 99th percentile=0.246 ms
+02:10:17.470:  ┃ ┃ ┃ ┣render_main_texture: min=0.019 ms, median=0.048 ms, max=1.342 ms, 99th percentile=0.11 ms
+02:10:17.470:  ┃ ┃ ┃ ┣render_convert_texture: min=0.019 ms, median=0.026 ms, max=3.165 ms, 99th percentile=0.083 ms
+02:10:17.470:  ┃ ┃ ┃ ┗stage_output_texture: min=0.009 ms, median=0.013 ms, max=0.605 ms, 99th percentile=0.04 ms
+02:10:17.470:  ┃ ┃ ┣gs_flush: min=0.001 ms, median=0.002 ms, max=0.01 ms, 99th percentile=0.009 ms
+02:10:17.470:  ┃ ┃ ┗download_frame: min=0 ms, median=0.035 ms, max=0.108 ms, 99th percentile=0.099 ms
+02:10:17.470:  ┃ ┗output_video_data: min=0.292 ms, median=0.318 ms, max=2.379 ms, 99th percentile=2.132 ms
+02:10:17.470:  ┗render_displays: min=0.05 ms, median=0.152 ms, max=0.967 ms, 99th percentile=0.448 ms
+02:10:17.470: video_thread(video): min=0.989 ms, median=1.324 ms, max=26.902 ms, 99th percentile=14.959 ms
+02:10:17.470:  ┗receive_video: min=0.986 ms, median=1.323 ms, max=26.899 ms, 99th percentile=14.958 ms
+02:10:17.470:    ┗do_encode: min=0.985 ms, median=1.322 ms, max=26.896 ms, 99th percentile=14.957 ms
+02:10:17.470:      ┣encode(test_x264): min=0.944 ms, median=1.27 ms, max=26.894 ms, 99th percentile=14.956 ms
+02:10:17.470:      ┗send_packet: min=0.034 ms, median=0.05 ms, max=0.437 ms, 99th percentile=0.131 ms, 0.896321 calls per parent call
+02:10:17.470: obs_graphics_thread(33.3333 ms): min=0.296 ms, median=0.899 ms, max=5.313 ms, 99th percentile=5.11 ms, 100% below 33.333 ms
+02:10:17.470:  ┣tick_sources: min=0.003 ms, median=0.005 ms, max=0.017 ms, 99th percentile=0.017 ms
+02:10:17.470:  ┣output_frame: min=0.123 ms, median=0.663 ms, max=4.864 ms, 99th percentile=4.858 ms
+02:10:17.470:  ┃ ┣gs_context(video->graphics): min=0.122 ms, median=0.362 ms, max=0.911 ms, 99th percentile=0.886 ms
+02:10:17.470:  ┃ ┃ ┣render_video: min=0.026 ms, median=0.09 ms, max=0.335 ms, 99th percentile=0.272 ms
+02:10:17.470:  ┃ ┃ ┃ ┣render_main_texture: min=0.024 ms, median=0.049 ms, max=0.17 ms, 99th percentile=0.135 ms
+02:10:17.470:  ┃ ┃ ┃ ┣render_convert_texture: min=0.019 ms, median=0.025 ms, max=0.115 ms, 99th percentile=0.088 ms
+02:10:17.470:  ┃ ┃ ┃ ┗stage_output_texture: min=0.01 ms, median=0.012 ms, max=0.039 ms, 99th percentile=0.039 ms
+02:10:17.470:  ┃ ┃ ┣gs_flush: min=0.001 ms, median=0.002 ms, max=0.011 ms, 99th percentile=0.01 ms
+02:10:17.471:  ┃ ┃ ┗download_frame: min=0 ms, median=0.034 ms, max=0.132 ms, 99th percentile=0.112 ms
+02:10:17.471:  ┃ ┗output_video_data: min=0.274 ms, median=0.296 ms, max=4.066 ms, 99th percentile=3.95 ms
+02:10:17.471:  ┗render_displays: min=0.086 ms, median=0.207 ms, max=0.616 ms, 99th percentile=0.583 ms
+02:10:17.471: video_thread(video): min=1.05 ms, median=1.186 ms, max=7.278 ms, 99th percentile=5.6 ms
+02:10:17.471:  ┗receive_video: min=1.048 ms, median=1.183 ms, max=7.275 ms, 99th percentile=5.597 ms
+02:10:17.471:    ┗do_encode: min=1.047 ms, median=1.182 ms, max=7.272 ms, 99th percentile=5.594 ms
+02:10:17.471:      ┣encode(test_x264): min=1.001 ms, median=1.117 ms, max=7.27 ms, 99th percentile=5.593 ms
+02:10:17.471:      ┗send_packet: min=0.042 ms, median=0.06 ms, max=0.589 ms, 99th percentile=0.1 ms, 0.791946 calls per parent call
+02:10:17.471: obs_graphics_thread(16.6667 ms): min=0.243 ms, median=0.473 ms, max=14.005 ms, 99th percentile=1.448 ms, 100% below 16.667 ms
+02:10:17.471:  ┣tick_sources: min=0.003 ms, median=0.005 ms, max=0.015 ms, 99th percentile=0.012 ms
+02:10:17.471:  ┣output_frame: min=0.132 ms, median=0.356 ms, max=13.819 ms, 99th percentile=1.053 ms
+02:10:17.471:  ┃ ┣gs_context(video->graphics): min=0.111 ms, median=0.225 ms, max=13.817 ms, 99th percentile=0.614 ms
+02:10:17.471:  ┃ ┃ ┣render_video: min=0.034 ms, median=0.065 ms, max=4.2 ms, 99th percentile=0.264 ms
+02:10:17.471:  ┃ ┃ ┃ ┣render_main_texture: min=0.013 ms, median=0.026 ms, max=0.129 ms, 99th percentile=0.097 ms
+02:10:17.471:  ┃ ┃ ┃ ┣render_output_texture: min=0.009 ms, median=0.015 ms, max=4.102 ms, 99th percentile=0.067 ms
+02:10:17.471:  ┃ ┃ ┃ ┣render_convert_texture: min=0.011 ms, median=0.014 ms, max=0.056 ms, 99th percentile=0.053 ms
+02:10:17.471:  ┃ ┃ ┃ ┗stage_output_texture: min=0.006 ms, median=0.009 ms, max=0.068 ms, 99th percentile=0.034 ms
+02:10:17.471:  ┃ ┃ ┣gs_flush: min=0.001 ms, median=0.001 ms, max=0.011 ms, 99th percentile=0.008 ms
+02:10:17.471:  ┃ ┃ ┗download_frame: min=0 ms, median=0.024 ms, max=0.129 ms, 99th percentile=0.106 ms
+02:10:17.471:  ┃ ┗output_video_data: min=0.116 ms, median=0.125 ms, max=1.385 ms, 99th percentile=0.426 ms
+02:10:17.471:  ┗render_displays: min=0.055 ms, median=0.092 ms, max=0.415 ms, 99th percentile=0.35 ms
+02:10:17.471: video_thread(video): min=0.375 ms, median=0.434 ms, max=5.631 ms, 99th percentile=4.454 ms
+02:10:17.471:  ┗receive_video: min=0.374 ms, median=0.433 ms, max=5.628 ms, 99th percentile=4.451 ms
+02:10:17.471:    ┗do_encode: min=0.374 ms, median=0.433 ms, max=5.626 ms, 99th percentile=4.449 ms
+02:10:17.471:      ┣encode(test_x264): min=0.36 ms, median=0.415 ms, max=5.625 ms, 99th percentile=4.448 ms
+02:10:17.471:      ┗send_packet: min=0.012 ms, median=0.017 ms, max=0.048 ms, 99th percentile=0.038 ms, 0.896321 calls per parent call
+02:10:17.471: obs_graphics_thread(33.3333 ms): min=0.178 ms, median=0.786 ms, max=1.281 ms, 99th percentile=1.24 ms, 100% below 33.333 ms
+02:10:17.471:  ┣tick_sources: min=0.009 ms, median=0.011 ms, max=0.016 ms, 99th percentile=0.016 ms
+02:10:17.471:  ┣output_frame: min=0.066 ms, median=0.401 ms, max=0.601 ms, 99th percentile=0.557 ms
+02:10:17.471:  ┃ ┗gs_context(video->graphics): min=0.066 ms, median=0.4 ms, max=0.599 ms, 99th percentile=0.555 ms
+02:10:17.471:  ┃   ┣render_video: min=0.015 ms, median=0.049 ms, max=0.07 ms, 99th percentile=0.068 ms
+02:10:17.471:  ┃   ┃ ┗render_main_texture: min=0.014 ms, median=0.041 ms, max=0.059 ms, 99th percentile=0.056 ms
+02:10:17.471:  ┃   ┗gs_flush: min=0.001 ms, median=0.007 ms, max=0.014 ms, 99th percentile=0.01 ms
+02:10:17.471:  ┗render_displays: min=0.089 ms, median=0.34 ms, max=0.625 ms, 99th percentile=0.615 ms
+02:10:17.471: OBSBasic::ResetVideo: 22.651 ms
+02:10:17.471: obs_graphics_thread(16.6667 ms): min=0.083 ms, median=0.58 ms, max=26.001 ms, 99th percentile=1.512 ms, 99.9771% below 16.667 ms
+02:10:17.471:  ┣tick_sources: min=0.001 ms, median=0.01 ms, max=18.673 ms, 99th percentile=0.016 ms
+02:10:17.471:  ┣output_frame: min=0.02 ms, median=0.205 ms, max=0.995 ms, 99th percentile=0.512 ms
+02:10:17.471:  ┃ ┗gs_context(video->graphics): min=0.02 ms, median=0.204 ms, max=0.995 ms, 99th percentile=0.511 ms
+02:10:17.471:  ┃   ┣render_video: min=0.002 ms, median=0.047 ms, max=0.287 ms, 99th percentile=0.145 ms
+02:10:17.471:  ┃   ┃ ┗render_main_texture: min=0.002 ms, median=0.04 ms, max=0.275 ms, 99th percentile=0.137 ms
+02:10:17.471:  ┃   ┗gs_flush: min=0 ms, median=0.112 ms, max=0.884 ms, 99th percentile=0.429 ms
+02:10:17.471:  ┗render_displays: min=0.004 ms, median=0.33 ms, max=24.1 ms, 99th percentile=1.106 ms
+02:10:17.471: OBSBasic::ResetOutputs: 0.235 ms
+02:10:17.471: =================================================
+02:10:17.471: == Profiler Time Between Calls ==================
+02:10:17.471: obs_hotkey_thread(25 ms): min=25.013 ms, median=25.067 ms, max=25.644 ms, 99.9708% within ±2% of 25 ms (0% lower, 0.0292312% higher)
+02:10:17.471: obs_graphics_thread(33.3333 ms): min=32.623 ms, median=33.333 ms, max=34.042 ms, 99.0868% within ±2% of 33.333 ms (0.456621% lower, 0.456621% higher)
+02:10:17.471: obs_graphics_thread(16.6667 ms): min=16.437 ms, median=16.666 ms, max=16.884 ms, 100% within ±2% of 16.667 ms (0% lower, 0% higher)
+02:10:17.471: obs_graphics_thread(33.3333 ms): min=33.253 ms, median=33.334 ms, max=33.461 ms, 100% within ±2% of 33.333 ms (0% lower, 0% higher)
+02:10:17.471: obs_graphics_thread(16.6667 ms): min=16.591 ms, median=16.666 ms, max=16.746 ms, 100% within ±2% of 16.667 ms (0% lower, 0% higher)
+02:10:17.471: obs_graphics_thread(33.3333 ms): min=33.265 ms, median=33.333 ms, max=33.408 ms, 100% within ±2% of 33.333 ms (0% lower, 0% higher)
+02:10:17.471: obs_graphics_thread(16.6667 ms): min=7.328 ms, median=16.667 ms, max=26.009 ms, 99.9541% within ±2% of 16.667 ms (0.0229305% lower, 0.0229305% higher)
+02:10:17.471: =================================================
+02:10:17.479: Number of memory leaks: 0
