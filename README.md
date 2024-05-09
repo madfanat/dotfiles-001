@@ -1,5 +1,5 @@
-# Catppuccin-inspired work-in-progress rice
-## Contributions are welcome!
+# Catppuccin-inspired rice
+### Contributions are welcome!
 
 ![0](https://github.com/madfanat/dotfiles-001/blob/main/screenshots/0.png)
 
