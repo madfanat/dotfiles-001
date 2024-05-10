@@ -46,9 +46,9 @@
 * Fix text backround in a volume popup box
 * Make the days of the other months dimmed in a calendar popup box
 * Fix border radius of notifications button (border-radius and padding settings don't apply for some reason)
-* Fix the nautilus shortcut so it opens (for some reason it doesn't)
+* ~~Fix the nautilus shortcut so it opens (for some reason it doesn't)~~
 * Fix tray (when there are no children it still creates a thin vertical bar in the background color)
 * Add a language/keyboard layout button
 * Make indication dots and bars for applications (like in Windows 11)
-* Change font in Qt and GTK applications (Jetbrains Mono looks a bit strange here)
+* ~~Change font in Qt and GTK applications (Jetbrains Mono looks a bit strange here)~~
 * Try to implement blur
