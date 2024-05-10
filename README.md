@@ -24,7 +24,7 @@
 ## Themes
 * **Qt Theme**: [Mocha](https://github.com/catppuccin/qt5ct) by Catppuccin
 * **GTK Theme**: [Mocha](https://github.com/catppuccin/gtk) by Catppuccin
-* **Icon Theme**: [Flat Remix Violet (will be changed)](https://github.com/daniruiz/Flat-Remix) by daniruiz
+* **Icon Theme**: [Papirus Dark]([https://github.com/daniruiz/Flat-Remix](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)) by daniruiz
 * **Fonts**: [Jetbrains Mono](https://github.com/JetBrains/JetBrainsMono) by JetBrains
 * **Wallpaper**: [Cat Waves](https://t.me/catppuccinwallpapers/109) by elkrien
 * **Animations**: [illogical_impulse](https://github.com/end-4/dots-hyprland) by end-4
