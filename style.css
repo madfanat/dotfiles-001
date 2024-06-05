@@ -1,0 +1,138 @@
+@import "mocha.css";
+
+* {
+  font-family: JetBrainsMono Nerd Font;
+  font-size: 16px;
+  border: none;
+  border-radius: 18px;
+}
+
+.popup {
+  border: 2px solid @lavender;
+  color: @text;
+  padding: 0.25em;
+}
+
+/* START configuration */
+.power-menu #power-button {
+  color: @maroon;
+  border-radius: 100%;
+  margin: 0.25em 0.25em 0.25em 0;
+  padding: 0 0.8em 0 0.8em;
+}
+
+.popup-power-menu .power-button {
+  border-radius: 100%;
+  color: @text;
+  padding: 0 0.6em;
+  margin: 0 0.125em;
+}
+
+
+
+.workspaces .item {
+  padding: 0 0.45em 0 0.3em;
+  margin: 0.25em 0;
+  border-radius: 0;
+  color: @overlay0;
+}
+
+.workspaces .item:first-child {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.workspaces .item:last-child {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.workspaces .item.focused {
+  color: @lavender;
+}
+
+
+
+/* CENTER configuration */
+.launcher .item {
+  margin-right: 0.25em;
+  border-radius: 0;
+  background-color: @base0;
+}
+
+.launcher .open {
+  border-bottom: 2px solid @overlay0;
+}
+
+.launcher .focused {
+  border-bottom: 2px solid @lavender;
+}
+
+.popup-launcher {
+  padding: 0;
+}
+
+.popup-launcher .popup-item:not(:first-child) {
+  border-top: 2px solid @crust;
+}
+
+
+/* END configuration */
+.volume {
+  color: @green;
+  border-radius: 20px 4px 4px 20px;
+  padding: 0.5em 0.5em 0.5em 0.75em;
+  margin: 0.25em;
+}
+
+.clock {
+  color: @blue;
+  border-radius: 4px 0 0 4px;
+  padding: 0 0 0 0.25em;
+  margin: 0.25em 0;
+}
+
+.popup-clock .calendar {
+  color: @text;
+}
+
+.popup-clock .calendar-clock {
+  font-size: 2.5em;
+}
+
+.popup-clock .calendar:selected {
+  background-color: @rosewater;
+  color: @crust;
+}
+
+.notifications button {
+  border-radius: 0;
+  padding: 0;
+  margin: 0.25em 0;
+}
+
+.notifications .count {
+  font-size: 0.8em;
+  background-color: @sapphire;
+  color: @crust;
+  border-radius: 100%;
+  margin-right: 0.5em;
+  margin-top: 1.2em;
+  padding-left: 0.4em;
+  padding-right: 0.4em;
+}
+
+.tray {
+  background-color: @surface0;
+  border-radius: 0 20px 20px 0;
+  padding: 0;
+  margin: 0.25em 0;
+}
+
+.tray .item {
+  padding: 0.125em;
+}
+
+.tray .item:last-child {
+  padding-right: 0.75em;
+}
